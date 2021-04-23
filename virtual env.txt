@@ -15,3 +15,5 @@ step 5: deactivate
 *In case that you wanna delete the environment, so we use: rm -rf 'name of the environment'
 
 cd !$ go to the project
+
+--------------
