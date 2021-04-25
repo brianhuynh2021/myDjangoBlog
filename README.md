@@ -18,3 +18,9 @@ Part 1: set up the project
 -----------------------------
 Part 2: use templates
 - Go to apps.py
+Part 3:
+Create an admin account to login the server by command:
+- python manage.py createsuperuser 
+- python manage.py makemigrations
+- python manage.py migrate
+- rerun the command: manage.py createsuperuser
