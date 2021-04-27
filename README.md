@@ -24,3 +24,12 @@ Create an admin account to login the server by command:
 - python manage.py makemigrations
 - python manage.py migrate
 - rerun the command: manage.py createsuperuser
+Part 4:
+User python manage.py shell
+>>> from blog.models import Post
+>>> from django.contrib.auth.models import User
+>>> Post.objects.all()
+>>> creat a User after login again: user = User.objects.filter(username='brianhuynh').first()
+- Save metho post_2.save()
+- post.author.email >>> 'huynh2102@gmail.com'
+- Get all the posts: user.post_set.all()
