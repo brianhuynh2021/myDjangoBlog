@@ -23,6 +23,7 @@ Create an admin account to login the server by command:
 - python manage.py createsuperuser 
 - python manage.py makemigrations
 - python manage.py migrate
+- 'python manage.py sqlmigrate blog 0001' to save database
 - rerun the command: manage.py createsuperuser
 Part 4:
 User python manage.py shell
