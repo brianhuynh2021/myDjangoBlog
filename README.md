@@ -34,3 +34,4 @@ User python manage.py shell
 - Save metho post_2.save()
 - post.author.email >>> 'huynh2102@gmail.com'
 - Get all the posts: user.post_set.all()
+Part 5: update profiles
