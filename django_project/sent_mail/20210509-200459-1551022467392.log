@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on localhost:8000
+From: webmaster@localhost
+To: huynh2102@gmail.com
+Date: Sun, 09 May 2021 13:04:59 -0000
+Message-ID: <162056549949.10096.761699424637504257@BrianHuynh>
+
+
+You're receiving this email because you requested a password reset for your user account at localhost:8000.
+
+Please go to the following page and choose a new password:
+
+http://localhost:8000/password-reset-confirm/MQ/5qh-712d21de0bcc293c768b/
+
+Your username, in case you've forgotten: brianhuynh
+
+Thanks for using our site!
+
+The localhost:8000 team
+
+
+
+-------------------------------------------------------------------------------
