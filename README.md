@@ -34,3 +34,25 @@ User python manage.py shell
 - Save metho post_2.save()
 - post.author.email >>> 'huynh2102@gmail.com'
 - Get all the posts: user.post_set.all()
+
+
+*notes:
+Doing with Django
+*
+1. set up virtual environment.
+
+step 1: python -m venv --system-site-package 'name of the directory' or python -m venv
+ex: python -m venv myblog_env
+
+step 2: source project_env/bin/activate
+ex: source myblog_env/bin/activate
+
+step 3: pip list and install other tool/programs
+step 4: pip freeze > requirements.txt
+step 5: deactivate
+
+*In case that you wanna delete the environment, so we use: rm -rf 'name of the environment'
+
+cd !$ go to the project
+
+--------------
