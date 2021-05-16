@@ -2,10 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+django_env/
 # C extensions
 *.so
-
+.vscode/
 # Distribution / packaging
 .Python
 build/
@@ -137,4 +137,3 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-myblog_env/
