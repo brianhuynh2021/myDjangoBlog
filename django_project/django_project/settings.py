@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'bbcc6+ifb=2n#=jmq)c0*3g$%^=f5(r(kt!g%h139l=t(1pze2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','newdjangoapp.herokuapp.com']
 
@@ -97,8 +97,8 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-WHITENOISE_USE_FINDERS = True
-db_from_env = dj_database_url.config(conn_max_age=500)
+
+db_from_env = dj_database_url.config(conn_max_age=600)
 DATABASES['default'].update(db_from_env)
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
