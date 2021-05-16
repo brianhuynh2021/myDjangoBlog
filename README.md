@@ -56,3 +56,4 @@ step 5: deactivate
 cd !$ go to the project
 
 --------------
+set heroku to stack 18
